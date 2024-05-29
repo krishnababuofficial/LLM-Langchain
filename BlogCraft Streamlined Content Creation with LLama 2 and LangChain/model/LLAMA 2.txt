@@ -1,0 +1,23 @@
+Link for Model ------->  https://llama.meta.com/llama2/
+
+LLAMA-2 stands for "Language Model for Model Analysis 2." 
+It's a tool developed to evaluate and analyze other language models, such as GPT or BERT.
+
+
+In summary,
+ LLAMA-2 is a valuable resource for evaluating and studying the behavior and performance of different language models.
+
+
+Inside the model:
+		Llama 2 models are trained on 2 trillion tokens and have double the context length of Llama 1.
+		Llama Chat models have additionally been trained on over 1 million new human annotations.
+
+MODEL SIZE (PARAMETERS): 7B, 13B, 70B
+
+
+"LLAMA-2 is a language model developed to assess and analyze other NLP models like GPT or BERT. 
+Its purpose is to provide insights into the performance, biases, and linguistic abilities of these models, 
+aiding researchers and developers in understanding their behavior more comprehensively."
+
+
+Download current model for better performance

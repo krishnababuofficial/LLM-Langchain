@@ -1,0 +1,4 @@
+In summary:
+This code showcases a Streamlit application powered by Llama 2 and LangChain. 
+Users can easily generate customized blog posts by specifying the desired topic, length, and target audience. 
+The application leverages Llama 2's text generation capabilities and LangChain's prompting functionalities to create a user-friendly and efficient blog writing experience.
