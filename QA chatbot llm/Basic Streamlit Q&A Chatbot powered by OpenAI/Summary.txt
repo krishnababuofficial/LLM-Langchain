@@ -1,0 +1,2 @@
+Summary: 
+This code creates a simple web application where users can input a question, and upon clicking the "Ask the question" button, it sends the question to the OpenAI API using Langchain, retrieves the response, and displays it within the app.

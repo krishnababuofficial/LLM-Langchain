@@ -1,0 +1,3 @@
+This code creates a user-friendly Streamlit application for a conversational Q&A chatbot. 
+By leveraging LangChain and OpenAI's language model, the chatbot maintains context and provides coherent responses. 
+Users can easily input their questions and view the chatbot's replies within the streamlined interface, creating a seamless conversational experience.
