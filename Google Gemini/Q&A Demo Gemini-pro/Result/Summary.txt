@@ -1,0 +1,4 @@
+Summary
+
+This code builds a user-friendly Streamlit app that allows users to ask questions and receive answers from the "gemini-pro" version of the Gemini AI model, 
+creating a seamless AI-powered question-and-answer experience.

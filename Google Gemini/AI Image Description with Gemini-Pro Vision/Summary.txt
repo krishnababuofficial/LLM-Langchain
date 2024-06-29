@@ -1,0 +1,1 @@
+This Streamlit app lets users upload images and get AI-powered descriptions using the "gemini-pro-vision" model, which combines visual and textual information to understand and explain the content of images
