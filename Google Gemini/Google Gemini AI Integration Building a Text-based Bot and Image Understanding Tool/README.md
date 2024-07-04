@@ -55,7 +55,7 @@ I welcome contributions and suggestions for improvements!
 
 3. **Run the App:**
    ```bash
-    - streamlit run main.py
+   streamlit run main.py
 
 ## Notes
  - This project requires a Google Cloud account and access to the Gemini AI API.
