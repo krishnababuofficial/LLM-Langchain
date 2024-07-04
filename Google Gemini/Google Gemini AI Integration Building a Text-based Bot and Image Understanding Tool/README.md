@@ -50,9 +50,11 @@ I welcome contributions and suggestions for improvements!
 2. **Set Up Environment Variables:**
     - Create a .env file in the project's root directory.
     - Add your Google API key:
-    GOOGLE_API_KEY=YOUR_API_KEY - (Replace YOUR_API_KEY with your actual API key.)
+    ```bash
+    GOOGLE_API_KEY =  YOUR_API_KEY --> (Replace YOUR_API_KEY with your actual API key.)
 
 3. **Run the App:**
+   ```bash
     - streamlit run main.py
 
 ## Notes
