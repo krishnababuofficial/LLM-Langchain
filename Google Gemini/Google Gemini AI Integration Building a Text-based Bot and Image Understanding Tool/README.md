@@ -65,6 +65,3 @@ I welcome contributions and suggestions for improvements!
    This project was inspired by **Krish NAIK**. Their tutorials and resources provided valuable guidance and helped me understand the concepts behind building this application, you can fine this under the playlist name **Google Gemini**. I encourage anyone interested in exploring Gemini AI models to check out their channel for more learning opportunities.
 
 **[YouTube Channel Playlist Link]:** https://www.youtube.com/watch?v=it0l6lx3qI0&list=PLZoTAELRMXVNbDmGZlcgCA3a8mRQp5axb&pp=iAQB
-
-## Contributions
-I welcome contributions and suggestions for improvements!
