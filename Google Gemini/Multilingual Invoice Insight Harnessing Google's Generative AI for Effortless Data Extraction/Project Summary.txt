@@ -1,0 +1,56 @@
+Project Summary:  Multi-Language Invoice Extractor with Google AI
+
+This project aims to build a user-friendly web application that can extract information from invoices and translate it into various languages. 
+It leverages Google's Generative AI and Cloud Vision API (specifically the Gemini Pro Vision model) to analyze invoice images and extract relevant data.
+
+
+Key Features:
+
+Invoice Image Processing:  Users can upload an image of an invoice, which the application processes using the Gemini Pro Vision model.
+
+Information Extraction:    The application extracts key information such as invoice number, date, total amount, vendor name, and line items using Named Entity Recognition (NER).
+
+Multilingual Support: 	   Extracted information can be translated into various languages using the Googletrans library.
+
+User Interaction: 	   Users can specify the information they want to extract and ask questions about the invoice.
+
+Web Interface:    	   The application is built using Streamlit, providing a simple and intuitive interface for users.
+
+
+
+Implementation Challenges:
+Google Translate API and Credit Card Requirement: 
+												 The initial plan was to use the Google Translate API directly. 
+												 However, this required a credit card for billing, which presented a limitation.
+												 As a workaround, the Googletrans library was used to provide translation functionality.
+
+
+
+Code Breakdown:
+The project consists of two main Python files:
+
+helper.py:
+This file contains functions for interacting with the Google Generative AI API, processing images, extracting information using NER, and translating text.
+get_gemini_response:     Sends the image, user input, and prompt to the Gemini Pro Vision model and returns the model's response.
+input_image_details:     Processes the uploaded image and prepares it for the model.
+extract_information_ner: Uses spaCy's NER capabilities to extract entities like dates, amounts, and names from the model's response.
+language_translate:      Translates the extracted information or user input into the desired language.
+
+main.py:
+This file builds the Streamlit web application.
+It handles user inputs (file upload, information selection, and questions), calls the helper functions, and displays the results.
+The user interface allows selecting the language for translation and specific information to extract.
+
+
+Future Improvements:
+Integrate the Google Translate API with proper billing setup for more comprehensive and accurate translations.
+Implement a more robust error handling mechanism.
+Add support for different invoice formats and layouts.
+Explore the use of other NLP techniques for improved information extraction and analysis.
+
+Conclusion:
+This project demonstrates the potential of Google's AI technologies for building practical applications like invoice processing. While the current version utilizes an alternative translation library, the foundation is set for incorporating more advanced features and enhancing the overall user experience.
+
+
+
+

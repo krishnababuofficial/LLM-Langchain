@@ -1,0 +1,7 @@
+End to End Multilanguage invoice
+
+1. Multilanguage Invoice Extractor App Demo
+2. Create Environment
+3. requirements.txt
+4. Step by step building
+5. Additional Improvements

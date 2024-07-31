@@ -1,0 +1,8 @@
+Summary:
+This application leverages Streamlit, Langchain, and Google Gemini to provide a user-friendly interface for asking questions about uploaded PDF documents. 
+The system efficiently extracts relevant information and generates accurate answers based on the context, showcasing the power of combining LLMs with information retrieval techniques.
+
+Additional Notes:
+The code uses "gemini-pro" which might require specific access or settings.
+The "stuff" chain type implies internal summarization within the chain.
+Consider exploring different chain types and prompt templates for further customization.

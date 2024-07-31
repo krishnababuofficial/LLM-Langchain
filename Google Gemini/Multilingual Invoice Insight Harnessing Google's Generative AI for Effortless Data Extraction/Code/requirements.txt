@@ -1,0 +1,8 @@
+streamlit
+google-generativeai
+langchain
+python-dotenv
+PyPDF2 
+spacy           # python -m spacy download en_core_web_sm  ."Run in Terminal"
+googletrans
+pandas
