@@ -1,0 +1,4 @@
+crewai
+langchain_google_genai   #GOOGLE Gemini Model
+load_dotenv
+crewai_tools
