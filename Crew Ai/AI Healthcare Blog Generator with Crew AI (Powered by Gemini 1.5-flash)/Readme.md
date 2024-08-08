@@ -43,7 +43,7 @@ Run the project to generate a new blog post in Markdown format.
 
 ## Example Output
 The output will be a Markdown file named "new-blog-post.md" containing a blog post about AI in healthcare, based on your specified topic.
-![Generated Blog Post](Results/4_Result.jpg)
+![Generated Blog Post](Results/4_Result.JPG)
 Use code with caution.
 Markdown
 
