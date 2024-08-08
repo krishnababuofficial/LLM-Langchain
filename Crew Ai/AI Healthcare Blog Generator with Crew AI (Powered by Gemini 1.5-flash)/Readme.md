@@ -43,7 +43,7 @@ Run the project to generate a new blog post in Markdown format.
 
 ## Example Output
 The output will be a Markdown file named "new-blog-post.md" containing a blog post about AI in healthcare, based on your specified topic.
-![Generated Blog Post](AI Healthcare Blog Generator with Crew AI (Powered by Gemini 1.5-flash)/Results/4_Result)
+![Generated Blog Post](Results/4_Result.JPG)
 Use code with caution.
 Markdown
 
