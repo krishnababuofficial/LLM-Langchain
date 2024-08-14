@@ -2,6 +2,11 @@
 
 This repository provides a comprehensive guide to parameter-efficient fine-tuning techniques for large language models (LLMs). It focuses on LoRA (Low-Rank Adaptation) and QLoRA (Quantized LoRA), two powerful methods that enable efficient model adaptation while minimizing memory requirements.
 
+## Flow Chart:
+
+*This flowchart illustrates the key steps involved in parameter-efficient fine-tuning using LoRA and QLoRA.*
+![Parameter-Efficient Fine-Tuning Flowchart](FlowChart/PEFT_FlowChart.jpg)
+
 ## What you'll find here:
 
 * **In-depth explanations:** Understand the theoretical foundations of LoRA and QLoRA, including matrix decomposition and quantization.
