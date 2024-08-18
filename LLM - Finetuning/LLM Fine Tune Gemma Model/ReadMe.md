@@ -11,7 +11,7 @@ This project was inspired by **Krish NAIK**'s excellent tutorials and resources 
 This flowchart outlines the process of fine-tuning Google Gemma using LoRA and QLoRA, two techniques that significantly reduce the number of parameters requiring training, leading to faster and more efficient results.
 This flowchart visualizes the parameter-efficient fine-tuning process using LoRA and QLoRA, methods designed to enhance performance while requiring less training data and computational resources.
 
-[Parameter-Efficient Fine-Tuning Flowchart](Flowchart/Flowchart_Gemma_model_finetuning.jpg)
+![Parameter-Efficient Fine-Tuning Flowchart](Flowchart/Flowchart_Gemma_model_finetuning.jpg)
 
 Discover the efficiency of fine-tuning Google Gemma! This flowchart visualizes the process of adapting this powerful language model using LoRA and QLoRA.  These techniques significantly reduce training time and computational resources while achieving impressive performance gains.
 
