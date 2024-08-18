@@ -6,6 +6,15 @@ This repository demonstrates how to fine-tune Google's Gemma language model usin
 
 This project was inspired by **Krish NAIK**'s excellent tutorials and resources on YouTube. Their playlist on **Google Gemini** provided invaluable guidance and helped me understand the concepts behind building this application. I encourage anyone interested in exploring Gemini AI models to check out their channel for more learning opportunities.
 
+## FlowChart
+
+This flowchart outlines the process of fine-tuning Google Gemma using LoRA and QLoRA, two techniques that significantly reduce the number of parameters requiring training, leading to faster and more efficient results.
+This flowchart visualizes the parameter-efficient fine-tuning process using LoRA and QLoRA, methods designed to enhance performance while requiring less training data and computational resources.
+
+[Parameter-Efficient Fine-Tuning Flowchart](Flowchart/Flowchart gemma model fine tuning.jpg)
+
+Discover the efficiency of fine-tuning Google Gemma! This flowchart visualizes the process of adapting this powerful language model using LoRA and QLoRA.  These techniques significantly reduce training time and computational resources while achieving impressive performance gains.
+
 ## Requirements
 
 * Python 3.x
