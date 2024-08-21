@@ -87,10 +87,10 @@ Use code with caution.
 Python
 
 #### Important Notes
-**Warnings** : The code may show warnings about max_seq_length and padding_side. You can fix these warnings by explicitly setting the max_seq_length in the TrainingArguments and adjusting the padding_side in the tokenizer if needed.
-**Training Time** : The training process can take a significant amount of time.
-**Hardware** : The code is designed for GPU training.
-**Monitoring** : It's essential to monitor the training process, e.g., using Weights & Biases (W&B), to track metrics and evaluate progress.
+* **Warnings** : The code may show warnings about max_seq_length and padding_side. You can fix these warnings by explicitly setting the max_seq_length in the TrainingArguments and adjusting the padding_side in the tokenizer if needed.
+* **Training Time** : The training process can take a significant amount of time.
+* **Hardware** : The code is designed for GPU training.
+* **Monitoring** : It's essential to monitor the training process, e.g., using Weights & Biases (W&B), to track metrics and evaluate progress.
 
 
 #### Contributing
