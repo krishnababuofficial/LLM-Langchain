@@ -34,39 +34,43 @@ Discover the efficiency of fine-tuning Google Gemma! This flowchart visualizes t
      export HF_TOKEN='your_token' 
      ```
 2. **Install the required libraries:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. **Run the code:**
    ```bash
-   pip install -r requirements.txt
+   python fine_tune_gemma.py
+   ```
+4. **Usage**
+   ```bash
+   This code fine-tunes the google/gemma-2b model using LoRA.
+   ```
 Use code with caution.
-Markdown
-Run the code:
-python fine_tune_gemma.py
-Use code with caution.
-Bash
-Usage
-This code fine-tunes the google/gemma-2b model using LoRA.
-LoRA Fine-tuning
-4-bit Quantization: The code uses 4-bit quantization (NF4) to reduce memory usage and enable training on smaller hardware.
-Target Modules: LoRA fine-tuning is applied to specific modules of the model, including q_proj, o_proj, k_proj, v_proj, gate_proj, up_proj, and down_proj.
-Training Dataset: The code uses the Abirate/english_quotes dataset from Hugging Face Datasets.
-Training Arguments: You can adjust training arguments like per_device_train_batch_size, gradient_accumulation_steps, learning_rate, max_steps, etc. in the TrainingArguments object.
-QLoRA (Optional)
+
+### LoRA Fine-tuning
+* **4-bit Quantization :** The code uses 4-bit quantization (NF4) to reduce memory usage and enable training on smaller hardware.
+* **Target Modules :** LoRA fine-tuning is applied to specific modules of the model, including q_proj, o_proj, k_proj, v_proj, gate_proj, up_proj, and down_proj.
+* **Training Dataset :** The code uses the Abirate/english_quotes dataset from Hugging Face Datasets.
+* **Training Arguments:** You can adjust training arguments like per_device_train_batch_size, gradient_accumulation_steps, learning_rate, max_steps, etc. in the TrainingArguments object.
+
+### QLoRA (Optional)
 To use QLoRA, uncomment the QLoRA configuration and update the trainer:
 # ... (previous imports and setup)
-
-qlora_config = QLoRAConfig(
-    r=8,
-    target_modules=["q_proj", "o_proj", "k_proj", "v_proj",
-                    "gate_proj", "up_proj", "down_proj"],
-    lora_alpha=16,
-    lora_dropout=0.1,
-    quantize=True,
-    quantize_type="nf4",
-    compute_dtype=torch.bfloat16,
-    load_in_4bit=True,
-)
-
+```bash
+    qlora_config = QLoRAConfig(
+        r=8,
+        target_modules=["q_proj", "o_proj", "k_proj", "v_proj",
+                        "gate_proj", "up_proj", "down_proj"],
+        lora_alpha=16,
+        lora_dropout=0.1,
+        quantize=True,
+        quantize_type="nf4",
+        compute_dtype=torch.bfloat16,
+        load_in_4bit=True,
+    )
+```
 # ... (load model with quantization config if needed)
-
+```bash
 trainer = SFTTrainer(
     model=model,
     train_dataset=data["train"],
@@ -78,6 +82,7 @@ trainer = SFTTrainer(
 )
 
 trainer.train()
+```
 Use code with caution.
 Python
 
