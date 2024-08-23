@@ -1,1 +1,0 @@
-This Streamlit app offers a dual AI experience: chat with a Q&A bot and get insightful descriptions of uploaded images, all powered by advanced Gemini models.
